@@ -796,8 +796,8 @@ RectTransform:
   m_GameObject: {fileID: 87616688}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 20, z: 5}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 3, y: 6, z: 1.5}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 523493832}
   m_Father: {fileID: 226336216}
@@ -836,7 +836,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 0f495eeefbac838408f7e344d7b49520,
+    m_HighlightedSprite: {fileID: 21300000, guid: 0a09a931b4cc9cf40a29c1f193b25600,
       type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
@@ -884,7 +884,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9ca7b9257fcd3c345ab4f33d535c6b4f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f6ac6779286036c4c93cc9b370161f4c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5936,7 +5936,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &926980556
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5946,8 +5946,8 @@ RectTransform:
   m_GameObject: {fileID: 926980555}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 20, z: 5}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 3, y: 6, z: 1.5}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1667464020}
   m_Father: {fileID: 226336216}
@@ -5986,7 +5986,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: adb34bb6bf1623d4684dc895a3a81c24,
+    m_HighlightedSprite: {fileID: 21300000, guid: daec08a30f6186840851fc658c737788,
       type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
@@ -6011,7 +6011,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Hidden Treasure
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 0
 --- !u!114 &926980558
@@ -6034,7 +6034,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2e70f24df7a288743b774ebf12e1e958, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 706fc47c2aacf4e43bfc4f23c93b0778, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9644,6 +9644,37 @@ Transform:
   - {fileID: 1219799217}
   m_Father: {fileID: 693092794}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1393438657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1393438658}
+  m_Layer: 0
+  m_Name: LivingRoom1 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1393438658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393438657}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1418536516
 GameObject:
   m_ObjectHideFlags: 0
@@ -9755,7 +9786,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1465419710
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9765,8 +9796,8 @@ RectTransform:
   m_GameObject: {fileID: 1465419709}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 20, z: 5}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 3, y: 6, z: 1.5}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 835627851}
   m_Father: {fileID: 226336216}
@@ -9805,7 +9836,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 37a6d456a8d62654eb2bd2ac3b092f12,
+    m_HighlightedSprite: {fileID: 21300000, guid: 242349ff46880984bafc552160bcd84d,
       type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
@@ -9832,7 +9863,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: Map2
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
 --- !u!114 &1465419712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9853,7 +9884,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ae0ae72be47b94645a5c4aca1b829623, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a688552004b907e46bf915d0555e17f4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13674,3 +13705,4 @@ SceneRoots:
   - {fileID: 1998653177}
   - {fileID: 1132540081}
   - {fileID: 1227947745}
+  - {fileID: 1393438658}
