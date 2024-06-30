@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HiddenTreasure.unity
     guid: 01e98a873608b404c90f1849244508ea
+  - enabled: 1
+    path: Assets/Scenes/Map2Hidden.unity
+    guid: f03c3463bc507f64e9adbaa5e9b08e77
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4e888a08f9e0cec40a0d7e63ad165a00,
       type: 2}
