@@ -1974,7 +1974,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Map2Hidden
+          m_StringArgument: KitchenMap
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &562140035
@@ -4165,7 +4165,7 @@ GameObject:
   - component: {fileID: 1273873719}
   - component: {fileID: 1273873726}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Settings Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6165,7 +6165,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: StartScreen
+          m_StringArgument: MapScreen
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1795733403
