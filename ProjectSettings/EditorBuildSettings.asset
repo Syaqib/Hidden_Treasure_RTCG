@@ -6,14 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Map2Hidden.unity
-    guid: f03c3463bc507f64e9adbaa5e9b08e77
+    path: Assets/Scenes/StartScreen.unity
+    guid: b407202ecf827904cbe2854bd871a553
   - enabled: 1
-    path: Assets/Scenes/Map2.unity
+    path: Assets/Scenes/MapScreen.unity
+    guid: 4d8df9b4288b8834f92996ea1c1808c5
+  - enabled: 1
+    path: Assets/Scenes/OfficeMap.unity
     guid: 365e006afa7e766419aa0e695f3d8b00
   - enabled: 1
-    path: Assets/Scenes/HiddenTreasure.unity
+    path: Assets/Scenes/LivingRoomMap.unity
     guid: 01e98a873608b404c90f1849244508ea
+  - enabled: 1
+    path: Assets/Scenes/KitchenMap.unity
+    guid: f03c3463bc507f64e9adbaa5e9b08e77
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4e888a08f9e0cec40a0d7e63ad165a00,
       type: 2}
